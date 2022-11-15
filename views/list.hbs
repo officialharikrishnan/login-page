@@ -1,0 +1,13 @@
+{{#each list}}
+<div class="card mb-3">
+  <img src="{{this.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h1 class="card-title">{{this.name}}</h1>
+    <h4>{{this.brand}}</h4>
+    <h4>₹{{this.price}}</h4>
+    <h5 class="card-text">{{this.details}}</h5>
+    <a href="" class="btn btn-secondary">More...</a>
+    <p class="card-text"><small class="text-muted">updated {{this.postTime}} mins ago</small></p>
+  </div>
+</div>
+{{/each}}
